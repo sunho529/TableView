@@ -8,6 +8,3 @@ xcode_project: MeetingRooms.xcodeproj
 xcode_scheme: MeetingRoomsTests
 osx_image: xcode8
 xcode_sdk: iphonesimulator10.2
-
-script:
-- xcodebuild clean build test -project MeetingRooms.xcodeproj -scheme MeetingRoomsTests
