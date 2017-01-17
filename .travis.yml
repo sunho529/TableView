@@ -1,0 +1,13 @@
+language: objective-c
+
+branches:
+ only:
+ - master
+
+xcode_project: MeetingRooms.xcodeproj
+xcode_scheme: MettingRoomsTests
+osx_image: xcode8
+xcode_sdk: iphonesimulator8.3
+
+script:
+- xcodebuild clean build test -project MeetingRooms.xcodeproj -scheme MettingRoomsTests
