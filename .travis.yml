@@ -5,9 +5,9 @@ branches:
  - master
 
 xcode_project: MeetingRooms.xcodeproj
-xcode_scheme: MettingRoomsTests
+xcode_scheme: MeetingRoomsTests
 osx_image: xcode8
-xcode_sdk: iphonesimulator8.3
+xcode_sdk: iphonesimulator10.2
 
 script:
-- xcodebuild clean build test -project MeetingRooms.xcodeproj -scheme MettingRoomsTests
+- xcodebuild clean build test -project MeetingRooms.xcodeproj -scheme MeetingRoomsTests
